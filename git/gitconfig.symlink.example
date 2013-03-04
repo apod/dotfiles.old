@@ -1,0 +1,22 @@
+[user]
+  name = AUTHOR_NAME
+  email = AUTHOR_EMAIL
+[alias]
+  co = checkout
+  br = branch
+  l = log --graph --abbrev-commit --pretty=oneline -n 20
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[core]
+  excludesfile = ~/.gitignore
+  editor = vim
+[apply]
+  whitespace = nowarn
+[diff]
+  tool = vimdiff
+[difftool]
+  prompt = false
+[push]
+  default = simple
