@@ -1,5 +1,7 @@
 # apod's dotfiles
 
+My dotfiles.
+
 ## Installation
 
 ```shell
@@ -9,5 +11,5 @@ script/bootstrap
 ```
 ## Thanks
 
-- Organization and script/bootstrap based on[Zach Holman's](http://github.com/holman) dotfiles
+- Organization and script/bootstrap based on [Zach Holman's](http://github.com/holman) dotfiles
 - [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
