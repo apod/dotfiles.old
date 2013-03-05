@@ -10,8 +10,14 @@ alias 1-center move screenOriginX+screenSizeX/16;screenOriginY 14*screenSizeX/16
 alias 1-left   move screenOriginX;screenOriginY                screenSizeX/2;screenSizeY      ${mon-laptop}
 alias 1-right  move screenOriginX+screenSizeX/2;screenOriginY  screenSizeX/2;screenSizeY      ${mon-laptop}
 
-# Keybindings
+# Basic Keybindings
 bind f:alt ${1-full}
 bind k:alt ${1-center}
 bind h:alt ${1-left}
 bind l:alt ${1-right}
+
+# Focus Keybindings
+bind h:alt;shift focus left
+bind j:alt;shift focus down
+bind k:alt;shift focus up
+bind l:alt;shift focus right
