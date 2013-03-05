@@ -25,6 +25,6 @@ ZSH_THEME='themes/apod'
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.dotfiles/zsh/oh-my-zsh/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git brew)
 
 source $ZSH/oh-my-zsh.sh
