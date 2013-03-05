@@ -5,6 +5,7 @@
   co = checkout
   br = branch
   l = log --graph --abbrev-commit --pretty=oneline -n 20
+  ctags = !.git/hooks/ctags
 [color]
   diff = auto
   status = auto
@@ -12,6 +13,8 @@
 [core]
   excludesfile = ~/.gitignore
   editor = vim
+[init]
+  templatedir = ~/.dotfiles/git/template
 [apply]
   whitespace = nowarn
 [diff]
