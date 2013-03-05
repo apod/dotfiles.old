@@ -22,6 +22,7 @@ compdef _git ga=git-add
 alias gm='git merge'
 compdef _git gm=git-merge
 alias grh='git reset HEAD'
+alias gwc='git whatchanged -p --pretty=medium'
 alias gf='git ls-files | grep'
 
 # Will cd into the top of the current repository
