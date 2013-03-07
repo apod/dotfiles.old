@@ -28,3 +28,9 @@ ZSH_THEME='themes/apod'
 plugins=(git brew)
 
 source $ZSH/oh-my-zsh.sh
+
+# Load ~/.localrc
+if [[ -a ~/.localrc ]]
+then
+  source ~/.localrc
+fi
