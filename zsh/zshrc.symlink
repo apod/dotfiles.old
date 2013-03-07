@@ -27,10 +27,10 @@ ZSH_THEME='themes/apod'
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git brew)
 
-source $ZSH/oh-my-zsh.sh
-
 # Load ~/.localrc
 if [[ -a ~/.localrc ]]
 then
   source ~/.localrc
 fi
+
+source $ZSH/oh-my-zsh.sh
