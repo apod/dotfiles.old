@@ -5,16 +5,25 @@ config defaultToCurrentScreen true
 alias mon-laptop 1440x900
 
 # Position Aliases
-alias 1-full   move screenOriginX;screenOriginY                screenSizeX;screenSizeY        ${mon-laptop}
-alias 1-center move screenOriginX+screenSizeX/16;screenOriginY 14*screenSizeX/16;screenSizeY  ${mon-laptop}
-alias 1-left   move screenOriginX;screenOriginY                screenSizeX/2;screenSizeY      ${mon-laptop}
-alias 1-right  move screenOriginX+screenSizeX/2;screenOriginY  screenSizeX/2;screenSizeY      ${mon-laptop}
+alias 1-full   move screenOriginX;screenOriginY                screenSizeX;screenSizeY       ${mon-laptop}
+alias 1-center move screenOriginX+screenSizeX/16;screenOriginY 14*screenSizeX/16;screenSizeY ${mon-laptop}
+alias 1-left   move screenOriginX;screenOriginY                screenSizeX/2;screenSizeY     ${mon-laptop}
+alias 1-right  move screenOriginX+screenSizeX/2;screenOriginY  screenSizeX/2;screenSizeY     ${mon-laptop}
+
+alias 1-top-left     move screenOriginX;screenOriginY                              screenSizeX/2;screenSizeY/2 ${mon-laptop}
+alias 1-bottom-left  move screenOriginX;screenOriginY+screenSizeY/2                screenSizeX/2;screenSizeY/2 ${mon-laptop}
+alias 1-top-right    move screenOriginX+screenSizeX/2;screenOriginY                screenSizeX/2;screenSizeY/2 ${mon-laptop}
+alias 1-bottom-right move screenOriginX+screenSizeX/2;screenOriginY+screenSizeY/2  screenSizeX/2;screenSizeY/2 ${mon-laptop}
 
 # Basic Keybindings
 bind f:alt ${1-full}
 bind k:alt ${1-center}
 bind h:alt ${1-left}
 bind l:alt ${1-right}
+bind y:alt ${1-top-left}
+bind b:alt ${1-bottom-left}
+bind p:alt ${1-top-right}
+bind .:alt ${1-bottom-right}
 
 # Focus Keybindings
 bind h:alt;shift focus left
