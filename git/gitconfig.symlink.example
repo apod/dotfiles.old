@@ -4,7 +4,7 @@
 [alias]
   co = checkout
   br = branch
-  l = log --graph --abbrev-commit --pretty=oneline -n 20
+  l = log --graph --decorate --abbrev-commit --pretty=oneline -n 20
   ctags = !.git/hooks/ctags
 [color]
   diff = auto
