@@ -21,3 +21,28 @@ bind -n C-\ run "(tmux display-message -p '#{pane_current_command}' | grep -iqE 
 
 # Clear screen with prefix C-l
 bind C-l send-keys 'C-l'
+
+# Resizing panes
+unbind Right
+bind Right resize-pane -R 4
+unbind Left
+bind Left resize-pane -L 4
+unbind Up
+bind Up resize-pane -U 4
+unbind Down
+bind Down resize-pane -D 4
+
+# Activity alerts
+setw -g monitor-activity off
+set -g visual-activity off
+
+# Disable mouse mode
+setw -g mode-mouse off
+set-option -g mouse-select-pane off
+set-option -g mouse-select-window off
+set-option -g mouse-resize-pane off
+
+# Status
+set-option -g status on
+set-option -g status-interval 1
+set-option -g status-utf8 on
