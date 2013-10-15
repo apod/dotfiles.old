@@ -1,0 +1,6 @@
+# Setting the prefix from C-b to C-a
+set -g prefix C-a
+unbind C-b
+
+# Set the delay between prefix and command
+set -sg escape-time 1
