@@ -73,3 +73,6 @@ set-option -g mouse-resize-pane off
 set-option -g status on
 set-option -g status-interval 1
 set-option -g status-utf8 on
+
+# Load theme
+source ~/.dotfiles/tmux/theme.tmux
