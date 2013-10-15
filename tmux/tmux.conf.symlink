@@ -24,9 +24,9 @@ bind C-l send-keys 'C-l'
 
 # Resizing panes
 unbind Right
-bind Right resize-pane -R 4
+bind Right resize-pane -R 6
 unbind Left
-bind Left resize-pane -L 4
+bind Left resize-pane -L 6
 unbind Up
 bind Up resize-pane -U 4
 unbind Down
