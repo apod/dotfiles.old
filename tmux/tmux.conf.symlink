@@ -25,6 +25,9 @@ bind -n C-\ run "(tmux display-message -p '#{pane_current_command}' | grep -iqE 
 # Clear screen with prefix C-l
 bind C-l send-keys 'C-l'
 
+# Index will start from 1 for windows
+set -g base-index 1
+
 # Resizing panes
 unbind Right
 bind Right resize-pane -R 6
