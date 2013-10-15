@@ -35,6 +35,12 @@ bind Up resize-pane -U 4
 unbind Down
 bind Down resize-pane -D 4
 
+# Split windows with '|' '_'
+unbind |
+bind | split-window -h
+unbind _
+bind _ split-window
+
 # Use vim keybindings in copy mode
 setw -g mode-keys vi
 
