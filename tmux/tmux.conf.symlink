@@ -1,3 +1,6 @@
+# Open shell with pasteboard support
+set-option -g default-command "reattach-to-user-namespace -l $SHELL; cd ."
+
 # Default terminal
 set -g default-terminal "screen-256color"
 
