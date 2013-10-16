@@ -51,6 +51,10 @@ bind | split-window -h
 unbind _
 bind _ split-window
 
+# Create a 25% bottom split
+unbind t
+bind t split-window -p 25
+
 # Use vim keybindings in copy mode
 setw -g mode-keys vi
 
