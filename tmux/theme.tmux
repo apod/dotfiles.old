@@ -4,9 +4,9 @@ set -g status-right-length 150
 
 set -g status-fg white
 set -g status-bg colour235
-set -g window-status-activity-attr bold
+
+set -g pane-border-bg colour250
 set -g pane-border-fg colour250
-set -g pane-active-border-fg colour210
 
 set -g message-bg colour235
 set -g message-fg colour192
