@@ -17,7 +17,7 @@ set -sg escape-time 1
 
 # Reload config
 unbind r
-bind r source-file ~/.tmux.conf
+bind r source-file ~/.tmux.conf \; display "Reloaded!"
 
 # Smart pane switching with awareness of vim splits
 bind -n C-h run "(tmux display-message -p '#{pane_current_command}' | grep -iqE '(^|\/)vim$' && tmux send-keys C-h) || tmux select-pane -L"
@@ -31,6 +31,9 @@ bind C-l send-keys 'C-l'
 
 # Index will start from 1 for windows
 set -g base-index 1
+
+# Re-number windows when one is closed
+set -g renumber-windows on
 
 # Resizing panes
 unbind Right
