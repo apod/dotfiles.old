@@ -27,6 +27,7 @@ bind -n C-l run "(tmux display-message -p '#{pane_current_command}' | grep -iqE 
 bind -n C-\ run "(tmux display-message -p '#{pane_current_command}' | grep -iqE '(^|\/)vim$' && tmux send-keys 'C-\\') || tmux select-pane -l"
 
 # Clear screen with prefix C-l
+unbind l
 bind C-l send-keys 'C-l'
 
 # Index will start from 1 for windows
