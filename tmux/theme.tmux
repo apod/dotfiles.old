@@ -10,7 +10,7 @@ setw -g window-status-current-fg black
 setw -g window-status-current-bg colour192
 
 set -g pane-border-fg colour250
-set -g pane-active-border-fg colour210
+set -g pane-active-border-fg colour192
 
 set -g message-bg colour235
 set -g message-fg colour192
