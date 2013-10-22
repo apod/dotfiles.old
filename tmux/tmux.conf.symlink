@@ -36,6 +36,9 @@ set -g base-index 1
 # Re-number windows when one is closed
 set -g renumber-windows on
 
+# Don't rename windows
+set -g allow-rename off
+
 # Resizing panes
 unbind Right
 bind Right resize-pane -R 6
