@@ -34,3 +34,6 @@ then
 fi
 
 source $ZSH/oh-my-zsh.sh
+
+# zsh-bd
+source $HOME/.dotfiles/zsh/plugins/bd/bd.zsh
