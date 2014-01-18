@@ -1,6 +1,3 @@
-# Locale
-export LC_ALL=en_US.UTF-8
-
 # Path
 export PATH="/usr/local/share/npm/bin:$PATH"
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
