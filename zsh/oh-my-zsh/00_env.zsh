@@ -10,4 +10,4 @@ export PATH="$HOME/.cabal/bin:$PATH"
 export EDITOR="vim"
 
 # Use vim for man
-export MANPAGER="col -b | vim -c 'set ft=man ts=8 nomod nolist nonu noma' -"
+# export MANPAGER="col -b | vim -c 'set ft=man ts=8 nomod nolist nonu noma' -"
