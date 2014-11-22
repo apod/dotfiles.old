@@ -17,4 +17,4 @@ JOBS="%(1j.%{$fg_bold[green]%}[%{$fg_bold[red]%}%j%{$fg_bold[green]%}]%{$reset_c
 
 PROMPT='${JOBS}$(git_prompt_short_sha)$(git_prompt_info)$(git_prompt_ahead)%{$fg_bold[green]%}$ %{$reset_color%}'
  
-RPROMPT="%{$fg[blue]%}%2~%{$reset_color%}"
+RPROMPT="%{$fg[cyan]%}%2~%{$reset_color%}"
